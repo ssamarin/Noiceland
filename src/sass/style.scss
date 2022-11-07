@@ -1,6 +1,22 @@
+@import 'libs/fonts';
+
 html, 
 body {
     height: 100%;
+}
+
+* {
+    font-family: 'LibreFranklin', sans-serif;
+}
+
+
+
+.regular {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
 }
 
 .page {
