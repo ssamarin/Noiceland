@@ -1,15 +1,11 @@
 .header {
     padding: 37px 0;
-    border-bottom: 1px solid #E6E6E6;;
+    border-bottom: 1px solid rgba(230, 230, 230, 0.8);
     &__wrapper  {
         display: flex;
         justify-content: space-between;
     }
-    // &__menu { 
-    //     display: inline-block;
-    // }
     &__link {
-        font-weight: 400;
         font-size: 14px;
         line-height: 171%;
         color: #000000;
@@ -21,9 +17,6 @@
 }
 .menu__item {
     margin-right: 40px;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
 }
-// .menu__link {
-// }

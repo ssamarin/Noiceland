@@ -1,0 +1,24 @@
+.promo {
+    padding: 60px 0 35px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 50px;
+    }
+    &__img {
+        max-width: 721px;
+    }
+    &__title {
+        margin-bottom: 27px;
+        font-size: 34px;
+        line-height: 117%;        
+    }
+    &__descr {
+        margin-bottom: 28px;
+        font-family: 'SourceSerifPro';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #666666;
+    }
+}

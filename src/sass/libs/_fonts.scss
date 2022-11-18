@@ -6,6 +6,20 @@
 }
 
 @font-face {
+    font-family: 'SourceSerifPro';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/SourceSerifPro-Regular.woff2') format('woff2'), url('../fonts/SourceSerifPro-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Tenor Sans';
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/TenorSans-Regular.woff2') format('woff2'), url('../fonts/TenorSans.woff') format('woff');
+}
+
+@font-face {
     font-family: 'LibreFranklin';
     font-weight: 700;
     font-style: normal;
