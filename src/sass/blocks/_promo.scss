@@ -3,9 +3,9 @@
     &__wrapper {
         display: flex;
         justify-content: space-between;
-        column-gap: 50px;
     }
     &__img {
+        margin-right: 50px;
         max-width: 721px;
     }
     &__title {
@@ -16,7 +16,6 @@
     &__descr {
         margin-bottom: 28px;
         font-family: 'SourceSerifPro';
-        font-weight: 400;
         font-size: 16px;
         line-height: 150%;
         color: #666666;

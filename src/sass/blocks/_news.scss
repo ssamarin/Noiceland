@@ -1,0 +1,23 @@
+.news {
+    padding: 60px 0 65px;
+    border-bottom: 1px solid rgba(230, 230, 230, 0.8);
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
+    &__item {
+        margin-bottom: 25px;
+        max-width: 387px;
+    }
+    &__genre {
+        margin-top: 24px;
+    }
+    &__title {
+        margin-bottom: 15px;
+        font-size: 20px;
+        line-height: 120%;
+    }
+}
+
+
