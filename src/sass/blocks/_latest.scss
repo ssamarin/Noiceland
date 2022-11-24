@@ -10,6 +10,13 @@
     &__item {
         max-width: 285px;
     }
+    &__link {
+        display: block;
+        transition: 0.7s all;
+        &:hover {
+            transform: scale(0.9);
+        }
+    }
     &__btn {
         margin: 35px auto;
         width: 205px;
