@@ -1,0 +1,23 @@
+.featured {
+    padding: 90px 0;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 17px;
+        row-gap: 50px;
+    }
+    &__item {
+        max-width: 590px;
+    }
+    &__link {
+        display: block;
+        transition: 0.7s all;
+        &:hover {
+            transform: scale(0.95);
+        }
+    }
+    &__title {
+        max-width: 306px;
+    }
+}
+
